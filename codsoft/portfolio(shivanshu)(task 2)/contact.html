@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shivanshu's Portfolio</div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" method="post" action="#">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit" onclick="submitForm()" />
+        </div>
+      </form>
+      <div id="form-message"></div>
+    </div>
+    <div class="sociallinks">
+          <a href="https://www.linkedin.com/in/shivanshu-maurya-129464240/" target="_blank"><img src="logo\linkedin.png" alt="LinkedIn" class="logo"></a>
+          <a href="https://github.com/shivanshumaurya11" target="_blank"><img src="logo\github.png" alt="Github" class="logo"></a>
+          <a href="https://www.facebook.com/profile.php?id=100081672942866" target="_blank"><img src="logo\fb.png" alt="Facebook" class="logo"></a>
+          <a href="https://www.quora.com/?redirect_to_mweb=1" target="_blank"><img src="logo\quora.png" alt="Quora" class="logo"></a>
+          <a href="https://gmail.com" target="_blank"><img src="logo\gmail.png" alt="Gmail" class="logo"></a>
+    </div>
+    <br>
+          <h4>Contact No:79858XXXXX</h4>
+          <script src="script.js"></script>
+  </body>
+</html>
